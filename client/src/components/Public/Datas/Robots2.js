@@ -1,0 +1,32 @@
+export const Robots2 = [
+  {
+    idt: 1,
+    tutimg: "Senayt Mulu.jpg",
+    tutname: "Senayt Mulu",
+    about: "Senayt Mulu is .... about the tutors",
+    education: "somthing Master's degree",
+    gender: "Femail",
+    flexibility: "Mekelle city",
+    tutemail: "example@gmail.com",
+  },
+  {
+    idt: 2,
+    tutimg: "sample-person.jpg",
+    tutname: "Tutors Name",
+    about: "(Teacher Name) is ...about the tutors",
+    education: "somthing Master's degree",
+    gender: " Boy/Girl",
+    flexibility: "Mekelle city",
+    tutemail: "example@gmail.com",
+  },
+  {
+    idt: 3,
+    tutimg: "sample-person.jpg",
+    tutname: "Tutors Name",
+    about: "(Teacher Name) is ...about the tutors",
+    education: "somthing Master's degree",
+    gender: " Boy/Girl",
+    flexibility: "Mekelle city",
+    tutemail: "example@gmail.com",
+  },
+];

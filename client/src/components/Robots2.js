@@ -1,7 +1,7 @@
 export const Robots2 = [
   {
     idt: 1,
-    tutimg: "Senayt Mulu.jpg",
+    tutimg: "https://firebasestorage.googleapis.com/v0/b/hsl-videos.appspot.com/o/Images%2FSenayt%20Mulu.jpg?alt=media&token=02c98222-df02-4752-bbf9-75579d3387ac",
     tutname: "Senayt Mulu",
     about: "Senayt Mulu is .... about the tutors",
     education: "somthing Master's degree",
@@ -11,7 +11,7 @@ export const Robots2 = [
   },
   {
     idt: 2,
-    tutimg: "sample-person.jpg",
+    tutimg: "https://firebasestorage.googleapis.com/v0/b/hsl-videos.appspot.com/o/Images%2Fsample-person.jpg?alt=media&token=75613de3-6fd7-4962-85ae-05c9154262df",
     tutname: "Tutors Name",
     about: "(Teacher Name) is ...about the tutors",
     education: "somthing Master's degree",
@@ -21,7 +21,7 @@ export const Robots2 = [
   },
   {
     idt: 3,
-    tutimg: "sample-person.jpg",
+    tutimg: "https://firebasestorage.googleapis.com/v0/b/hsl-videos.appspot.com/o/Images%2Fsample-person.jpg?alt=media&token=75613de3-6fd7-4962-85ae-05c9154262df",
     tutname: "Tutors Name",
     about: "(Teacher Name) is ...about the tutors",
     education: "somthing Master's degree",

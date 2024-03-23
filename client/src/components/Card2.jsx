@@ -1,6 +1,5 @@
 //* Creating a component for Tutors of HSL
 import React, { useEffect, useState } from 'react';
-import './img/Senayt Mulu.jpg';
 
 export default function Card2({
   idt,
@@ -12,12 +11,10 @@ export default function Card2({
   flexibility,
   tutemail,
 }) {
-  const hi = './src/components/img/' + tutimg;
-  // const hi = v.replace('Logo.png', tutimg)
 
   return (
     <div id={idt} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ml-12 mt-8">
-        <img className="rounded-t-lg" style={{ height: "400px", width: "350px" }} src={hi} alt="" />
+        <img className="rounded-t-lg" style={{ height: "400px", width: "350px" }} src={tutimg} alt="" />
     <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{tutname}</h5>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{about}</p>

@@ -1,9 +1,6 @@
 //* Creating a component for Activities of HSL
-// import React from 'react'
-// import s from './img/'
-import h from './img/Logo.png';
 export default function Card({ actname, actimg, description, id }) {
-   const hi = h.replace('Logo.png', actimg)
+
   return (
     <div id={id}>
       <div className="row">
@@ -13,7 +10,7 @@ export default function Card({ actname, actimg, description, id }) {
             data-mdb-ripple-color="light"
           >
             <img
-              src={hi}
+              src={actimg}
               className="img-fluid w-full"
               alt="activities"
             />

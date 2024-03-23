@@ -1,7 +1,7 @@
 //* Creating a component for Tutors of HSL
 import React, { useEffect, useState } from 'react';
-import v from './img/Logo.png';
-import axios from 'axios';
+import './img/Senayt Mulu.jpg';
+
 export default function Card2({
   idt,
   tutimg,
@@ -12,7 +12,8 @@ export default function Card2({
   flexibility,
   tutemail,
 }) {
-  const hi = v.replace('Logo.png', tutimg)
+  const hi = './src/components/img/' + tutimg;
+  // const hi = v.replace('Logo.png', tutimg)
 
   return (
     <div id={idt} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ml-12 mt-8">

@@ -13,27 +13,6 @@ export default function FooterCom() {
           </div>
           <div className='grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6'>
             <div>
-              <Footer.Title title='Fiona Alem' />
-              <Footer.LinkGroup className='mt-[-21px]' col>
-                <Footer.Link
-                  href='https://www.github.com/sahandghavidel'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Github
-                </Footer.Link>
-                <Footer.Link href='#'>Portfolio</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              
-              {/* <div className="flex gap-3">
-    <img className="w-10 h-10 rounded-full" src="https://avatars.githubusercontent.com/u/151674016?s=400&u=ca2c3cb5f72d71a6cdf6658a953a7b9a8061f92c&v=4" alt="" />
-    <div className="font-medium dark:text-white">
-        <div>Sem Dori</div>
-        <div className="text-sm text-gray-500 dark:text-gray-400">semetic17@gmail.com</div>
-    </div>
-</div> */}
               <Footer.Title title='Sem Dori' />
               
               <Footer.LinkGroup className='mt-[-21px]' col>

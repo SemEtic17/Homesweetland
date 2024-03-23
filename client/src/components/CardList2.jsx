@@ -8,7 +8,7 @@ export default function CardList2({ Robots2 }) {
       <h4 className="mb-5">
         <strong>Home Sweet Land Private Tutors</strong>
       </h4>
-      <div className="row">
+      <div className="row ml-1">
         {Robots2.map((user, i) => {
           return (
             <Card2

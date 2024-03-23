@@ -2,7 +2,6 @@
 // import { BsFacebook, BsInstagram, BsTwitter, BsGithub, BsDribbble } from 'react-icons/bs';
 // import { Footer } from 'flowbite-react';
 import '../../css/mdb.min.css' //* importing this will afect yourtailwind css
-import MyImag from './img/Logo.png';
 import { useSelector, useDispatch } from 'react-redux';
 import { Avatar, Button, Dropdown} from 'flowbite-react';
 import { signoutSuccess } from '../redux/user/userSlice';
@@ -40,7 +39,7 @@ export default function Header() {
             <div className="navbar-brand nav-link">
               <strong style={{ cursor: "default", display: 'flex' }}>
                 <img
-                  src={MyImag}
+                  src='https://firebasestorage.googleapis.com/v0/b/hsl-videos.appspot.com/o/Images%2FLogo.png?alt=media&token=8b068f7a-ae67-4baf-aa4e-502f59e4ff66'
                   height="50"
                   width="50"
                   alt="MDB Logo"

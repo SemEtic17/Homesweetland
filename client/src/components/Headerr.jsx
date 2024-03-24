@@ -281,6 +281,7 @@ export default function Header() {
             href="#introCarousel"
             role="button"
             data-mdb-slide="prev"
+            onClick={(e) => e.preventDefault()}
           >
             <span
               className="carousel-control-prev-icon"
@@ -288,18 +289,19 @@ export default function Header() {
             ></span>
             <span className="sr-only">Previous</span>
           </a>
-          <a
+          <Link
             className="carousel-control-next"
             href="#introCarousel"
             role="button"
             data-mdb-slide="next"
+            onClick={(e) => e.preventDefault()}
           >
             <span
               className="carousel-control-next-icon"
               aria-hidden="true"
             ></span>
             <span className="sr-only">Next</span>
-          </a>
+          </Link>
         </div>
       </div>
   )

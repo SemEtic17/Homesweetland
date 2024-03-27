@@ -39,7 +39,7 @@ export default function Header() {
         subtitle: 'School of language',
         content: (
           <a
-            className="btn btn-outline-dark btn-lg m-2"
+            className="btn btn-outline-light btn-lg m-2"
             href="https://www.youtube.com/homesweetlandu"
             role="button"
             rel="noreferrer"
@@ -60,7 +60,7 @@ export default function Header() {
         title: 'Send email to Homesweetland',
         content: (
           <a
-            className="btn btn-outline-dark btn-lg m-2"
+            className="btn btn-outline-light btn-lg m-2"
             href="mailto:homesweetlandu@gmail.com"
             target="_blank"
             role="button"
@@ -262,7 +262,7 @@ export default function Header() {
             >
             <div className="mask" style={slide.maskStyle}>
               <div className="d-flex justify-content-center align-items-center h-100">
-                <div className="text-white text-center">
+                <div className="text-white text-center text-2xl font-bold">
                   <h1>{slide.title}</h1>
                   {slide.subtitle && <h5>{slide.subtitle}</h5>}
                   {slide.content}

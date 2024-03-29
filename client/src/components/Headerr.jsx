@@ -1,6 +1,4 @@
 //* This is the header part of home page it contains the navbar and the container of sliding image
-import { BsFacebook, BsInstagram, BsTwitter, BsGithub, BsDribbble } from 'react-icons/bs';
-import { Footer } from 'flowbite-react';
 import '../../css/mdb.min.css' //* importing this will afect yourtailwind css
 import { useSelector, useDispatch } from 'react-redux';
 import { Avatar, Button, Dropdown } from 'flowbite-react';

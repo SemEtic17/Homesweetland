@@ -37,15 +37,16 @@ export default function Header() {
         subtitle: 'School of language',
         content: (
           <a
-            className="btn btn-outline-light btn-lg m-2"
-            href="https://www.youtube.com/homesweetlandu"
-            role="button"
-            rel="noreferrer"
-            target="_blank"
-            style={{ color: 'black' }}
-          >
-            Start learning in our youtube channel
-          </a>
+  className="btn btn-outline-light btn-lg m-2"
+  href="https://www.youtube.com/homesweetlandu"
+  role="button"
+  rel="noreferrer"
+  target="_blank"
+  style={{ color: 'black' }}
+>
+  <span className="d-none d-md-inline">Start learning in our youtube channel</span>
+  <span className="d-md-none">Learn in YouTube</span>
+</a>
         ),
         maskStyle: { backgroundColor: 'rgba(0, 0, 0, 0.6)' },
       },

@@ -11,13 +11,13 @@ export default function Card2({
 }) {
 
   return (
-    <div id={idt} className="max-w-[370px] h-[680px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:ml-12 sm:ml-2 mt-8">
+    <div id={idt} className="max-w-[370px] min-[360px]:w-[21rem] h-[680px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 md:ml-[5rem] sm:ml-2 mt-8">
         <img className="rounded-t-lg" style={{ height: "360px", width: "350px" }} src={tutimg} alt="" />
     <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{tutname}</h5>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{about}</p>
         <ul className="max-w-md space-y-4 text-gray-500 list-none list-inside dark:text-gray-400 mr-4">
-    <li className="float-left">
+    <li className="float-left ml-[-1.6rem] w-[20rem]">
     <span className="font-semibold text-gray-900 dark:text-white">Education :</span> {education}
     </li>
     <li className="float-left">

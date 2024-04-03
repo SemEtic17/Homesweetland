@@ -12,11 +12,13 @@ export default function CardList({ Robots }) {
   return (
     <div className="container ml">
       <div id="activities">
-      <div className="parent-container">  <h4 className="mb-5 d-flex align-items-center ml-24 md:ml-[550px]">
-    <strong>Home Sweet Land Activities </strong>
-  </h4>
+      <div className="parent-container">  
+      <h4 className="mb-5 d-flex align-items-center justify-content-center text-center lg:ml-[33rem] md:ml-[33rem] ml-[3rem]">
+  <strong>Home Sweet Land Activities</strong>
+</h4>
+
   <Button
-    className='w-12 h-10'
+    className='w-12 h-10 mb-3'
     color='gray'
     pill
     onClick={() => dispatch(toggleTheme())}

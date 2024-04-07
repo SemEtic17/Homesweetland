@@ -221,6 +221,10 @@ export default function Header() {
                         {currentUser.email}
                       </span>
                     </Dropdown.Header>
+                    <Dropdown.Item>
+                      <Link to='/dashbord'>Ckeck assighnments</Link>
+                    </Dropdown.Item>
+                    <Dropdown.Divider />
                     <a href={'/dashboard?tab=profile'}>
                       <Dropdown.Item>Profile</Dropdown.Item>
                     </a>

@@ -1,6 +1,6 @@
 import Card2 from "./Card2.jsx";
 //* Displaying HSL Tutors by looping the Card2 component
-import React from 'react';
+import React from "react";
 
 export default function CardList2({ Robots2 }) {
   return (
@@ -8,7 +8,7 @@ export default function CardList2({ Robots2 }) {
       <h4 className="mb-5">
         <strong>Home Sweet Land Private Tutors</strong>
       </h4>
-      <div className="row ml-2">
+      <div className="row justify-center">
         {Robots2.map((user, i) => {
           return (
             <Card2
@@ -26,5 +26,5 @@ export default function CardList2({ Robots2 }) {
         })}
       </div>
     </section>
-  )
+  );
 }

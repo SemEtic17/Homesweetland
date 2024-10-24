@@ -11,6 +11,7 @@ export default defineConfig({
         secure: false,
       },
     },
+    port: 2000,
   },
   plugins: [
     react(),

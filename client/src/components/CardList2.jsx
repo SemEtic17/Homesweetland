@@ -5,8 +5,8 @@ import React from "react";
 export default function CardList2({ Robots2 }) {
   return (
     <section className="text-center" id="contacts">
-      <h4 className="mb-5">
-        <strong>Home Sweet Land Private Tutors</strong>
+      <h4 className="mx-auto mb-5 font-bold text-lg sm:text-xl">
+        Home Sweet Land Private Tutors
       </h4>
       <div className="row justify-center">
         {Robots2.map((user, i) => {

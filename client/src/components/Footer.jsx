@@ -6,7 +6,7 @@ export default function FooterCom() {
   return (
     <Footer container className="border border-t-8 border-teal-500">
       <div className="w-full max-w-7xl mx-auto">
-        <div className="grid w-full justify-between sm:flex md:grid-cols-1">
+        <div className="flex flex-row justify-between">
           <div className="mt-5">
             <div className="self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white text-gray-600">
               Contact Creators

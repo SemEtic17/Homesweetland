@@ -10,7 +10,7 @@ export default function Card({ actname, actimg, description, id }) {
           >
             <img
               src={actimg}
-              className="img-fluid w-full lg:w-[450px] lg:h-[250px]"
+              className="img-fluid w-full lg:w-[450px] lg:h-[250px] rounded-lg"
               alt="activities"
             />
             <div

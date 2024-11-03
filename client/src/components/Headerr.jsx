@@ -253,7 +253,7 @@ export default function Header() {
         </div>
       </nav>
       {/* This is Navbar that will only display on mobile scale */}
-      <div className="flex max-w-fit justify-between fixed top-10 inset-x-0 mx-auto border border-white/[0.2] rounded-full backdrop-blur-md shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] py-2 px-2 items-center space-x-4 md:relative sm:hidden">
+      <div className="flex max-w-full justify-between fixed top-10 inset-x-0 border mx-2 border-white/[0.2] rounded-full backdrop-blur-md shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] py-2 px-2 items-center space-x-4 sm:hidden">
         <div className="flex flex-row gap-4 my-1 mx-2">
           <Link
             to={"/"}
@@ -266,14 +266,14 @@ export default function Header() {
             href="#contacts"
             rel="noreferrer"
           >
-            <span className="text-sm">Contact tutors</span>
+            <span className="text-sm">Tutors</span>
           </a>
           <a
             className="relative dark:text-neutral-50 items-center flex text-black dark:hover:text-neutral-300"
             href="#activities"
             rel="noreferrer"
           >
-            <span className="text-sm">Our activities</span>
+            <span className="text-sm">Activities</span>
           </a>
         </div>
         <div className="flex flex-row gap-2 my-1 mx-2">

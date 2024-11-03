@@ -8,7 +8,7 @@ export default function CardList2({ Robots2 }) {
       <h4 className="mx-auto mb-5 font-bold text-lg sm:text-xl">
         Home Sweet Land Private Tutors
       </h4>
-      <div className="row justify-center">
+      <div className="row justify-center max-w-[100%]">
         {Robots2.map((user, i) => {
           return (
             <Card2
